@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Structure and Algorithm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">DSA</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#algo">Explore</a></li>
+                    <li><a href="#members" id="open-about-modal">About</a></li>
+                    <li><a href="#members" id="open-members-modal">Team</a></li>
+                </ul>
+            </nav>
+            <button class="hello-btn">Hello</button>
+        </div>
+    </header>
+    <main>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Data Structure and Algorithm</h1>
+                <p>Home Explore</p>
+            </div>
+            
+        </section>
+
+        <!-- Features Section -->
+        <section class="features"  id="algo">
+            <!-- Sorting Algorithm Card -->
+            <a href="sorting.html" class="feature-card">
+                <h2>Sorting</h2>
+            </a>
+            <a href="linkedlist.html" class="feature-card">
+                <h2>LinkedList</h2>
+            </a>
+            <a href="stack.html" class="feature-card">
+                <h2>Stack, Queues, Trees</h2>
+            </a>
+        </section>
+
+        
+
+      <!-- New Algorithm Section -->
+<section class="algorithm">
+    <h1>Algorithms</h1>
+    <div class="algorithm-cards">
+        <!-- Array Algorithm Card -->
+        <div class="algorithm-card" onclick="showModal(this)">
+            <img src="imgg/6.JPG" alt="Array Algorithm">
+            <div class="overlay">
+                <h3>Array</h3>
+            </div>
+        </div>
+        <!-- Sorting Algorithm Card -->
+        <div class="algorithm-card" onclick="showModal(this)">
+            <img src="imgg/4.JPG" alt="Sorting Algorithm">
+            <div class="overlay">
+                <h3>Sorting Algorithm</h3>
+            </div>
+        </div>
+        <!-- LinkedList Algorithm Card -->
+        <div class="algorithm-card" onclick="showModal(this)">
+            <img src="imgg/5.JPG" alt="LinkedList Algorithm">
+            <div class="overlay">
+                <h3>LinkedList Algorithm</h3>
+            </div>
+        </div>
+        <!-- Stack Algorithm Card -->
+        <div class="algorithm-card" onclick="showModal(this)">
+            <img src="imgg/1.JPG" alt="Stack Algorithm">
+            <div class="overlay">
+                <h3>Stack Algorithm</h3>
+            </div>
+        </div>
+        <!-- Queue Algorithm Card -->
+        <div class="algorithm-card" onclick="showModal(this)">
+            <img src="imgg/2.JPG" alt="Queue Algorithm">
+            <div class="overlay">
+                <h3>Queue Algorithm</h3>
+            </div>
+        </div>
+        <!-- Trees Algorithm Card -->
+        <div class="algorithm-card" onclick="showModal(this)">
+            <img src="imgg/3.JPG" alt="Trees Algorithm">
+            <div class="overlay">
+                <h3>Trees Algorithm</h3>
+            </div>
+        </div>
+    </div>
+    <div id="members-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Members</h3>
+                <button class="close-btn" id="close-members-modal">×</button>
+            </div>
+            <div class="members-grid">
+                <div class="member-card">
+                    <div class="member-image">
+                        <img src="imgg/A.JPG" alt="Leader">
+                    </div>
+                    <div class="member-info">
+                        <h4>CONTAWE, RODEL M</h4>
+                        <p>LEADER</p>
+                    </div>
+                </div>
+                <div class="member-card">
+                    <div class="member-image">
+                        <img src="imgg/B.JPG" alt="Leader">
+                    </div>
+                    <div class="member-info">
+                        <h4>VENTURA, VICTOR JUVENILE M.</h4>
+                        <p>MEMBER</p>
+                    </div>
+                </div>
+                <div class="member-card">
+                    <div class="member-image">
+                        <img src="imgg/F.JPG" alt="Leader">
+                    </div>
+                    <div class="member-info">
+                        <h4>MANZANO, PIERRE EDISON C..</h4>
+                        <p>MEMBER</p>
+                    </div>
+                </div>
+                <div class="member-card">
+                    <div class="member-image">
+                        <img src="imgg/C.JPG" alt="Leader">
+                    </div>
+                    <div class="member-info">
+                        <h4>CAYABAN, HANS PAULO</h4>
+                        <p>MEMBER</p>
+                    </div>
+                </div>
+                <div class="member-card">
+                    <div class="member-image">
+                        <img src="imgg/D.JPG" alt="Leader">
+                    </div>
+                    <div class="member-info">
+                        <h4>OLECO, DANILO JR</h4>
+                        <p>MEMBER</p>
+                    </div>
+                </div>
+                <div class="member-card">
+                    <div class="member-image">
+                        <img src="imgg/E.JPG" alt="Leader">
+                    </div>
+                    <div class="member-info">
+                        <h4>FLORES, CHRISTIAN PAUL</h4>
+                        <p>MEMBER</p>
+                    </div>
+                </div>
+                <div class="member-card">
+                    <div class="member-image">
+                        <img src="imgg/G.JPG" alt="Member">
+                    </div>
+                    <div class="member-info">
+                        <h4>CABIDA, EXCEL JOHN</h4>
+                        <p>MEMBER</p>
+                    </div>
+                </div>
+                <div class="member-card">
+                    <div class="member-image">
+                        <img src="litrato/dwdwd.jpg" alt="Member">
+                    </div>
+                    <div class="member-info">
+                        <h4>CONTAWE, RODEL M</h4>
+                        <p>MEMBER</p>
+                    </div>
+                </div>
+                <div class="member-card">
+                    <div class="member-image">
+                        <img src="litrato/dwdwd.jpg" alt="Leader">
+                    </div>
+                    <div class="member-info">
+                        <h4>CONTAWE, RODEL M</h4>
+                        <p>LEADER</p>
+                    </div>
+                </div>
+                <div class="member-card">
+                    <div class="member-image">
+                        <img src="litrato/dwdwd.jpg" alt="Member">
+                    </div>
+                    <div class="member-info">
+                        <h4>CONTAWE, RODEL M</h4>
+                        <p>MEMBER</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="about-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>About Our Project</h3>
+                <button class="close-btn" id="close-about-modal">×</button>
+            </div>
+            <div class="modal-body">
+                <p>Welcome to our project for the <strong>CC104 Subject Final Requirements</strong>! Below is a detailed breakdown of the requirements that guided the creation of this website, along with the objectives we aim to achieve.</p>
+                <h4>Objective</h4>
+                <p>Our primary goal is to demonstrate our understanding of <strong>Algorithms</strong> and <strong>Data Structures</strong> by creating a functional and informative website. This project serves as both a learning tool and a showcase of our skills in programming, web development, and problem-solving.</p>
+                <h4>Team Effort</h4>
+                <p>This is a group project with at least 10 members per team. However, individual (SOLO) projects are also accepted. The website was built collaboratively, showcasing the combined knowledge and effort of our team.</p>
+                <h4>Final Note</h4>
+                <p>This project highlights our hard work, creativity, and technical knowledge gained throughout the semester. We are excited to present our website to demonstrate our proficiency in <strong>Algorithms</strong>, <strong>Data Structures</strong>, and their real-world applications.</p>
+                <p>Thank you for visiting and reviewing our project!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Bachelor of science in Information Technology</h1>
+        <p>2 - A</p>
+    </div>
+    
+</section>
+
+<!-- Modal -->
+<div id="modal" class="modal1">
+    <div class="modal1-content">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <img id="modal-image" class="modal1-image" src="" alt="Algorithm Image">
+        <div class="modal1-text">
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+</div>
+
+<script>
+   // Function to show the modal
+function showModal(card) {
+    const title = card.querySelector('h3').textContent; // Get the title from the card
+    const imageSrc = card.querySelector('img').src; // Get the image source from the card
+
+    // Define descriptions for each algorithm
+    const descriptions = {
+        "Array": "An array is a data structure consisting of a collection of elements, each identified by an index. Arrays allow fast access via indexing and are used for storing multiple values of the same type.",
+        "Sorting Algorithm": "Sorting algorithms arrange elements in a specific order (ascending or descending). Common algorithms include Quick Sort, Merge Sort, and Bubble Sort, each with unique time complexity.",
+        "LinkedList Algorithm": "A linked list is a linear data structure where elements are stored in nodes, with each node pointing to the next. Operations like insertion and deletion are efficient in linked lists.",
+        "Stack Algorithm": "A stack operates on a LIFO (Last In, First Out) principle. Elements are added and removed from the top of the stack, making it useful for recursion and expression evaluation.",
+        "Queue Algorithm": "A queue follows a FIFO (First In, First Out) principle. Elements are added at the rear and removed from the front, making it ideal for scheduling and task management.",
+        "Trees Algorithm": "Trees are hierarchical structures with a root node and child nodes. Tree algorithms involve traversals, searching, and balancing, such as in binary search trees or AVL trees."
+    };
+
+    // Dynamically update the modal content
+    document.getElementById('modal-title').textContent = title;
+    document.getElementById('modal-description').textContent = descriptions[title]; // Set description based on the title
+    document.getElementById('modal-image').src = imageSrc; // Set the modal image
+    document.getElementById('modal-image').alt = `${title} Image`;
+
+    // Display the modal
+    document.getElementById('modal').style.display = 'flex';
+}
+
+// Function to close the modal
+function closeModal() {
+    document.getElementById('modal').style.display = 'none';
+}
+
+// Close the modal when clicking outside of the modal content
+window.addEventListener("click", function(e) {
+    const modal = document.getElementById('modal');
+    const modalContent = document.querySelector('.modal1-content');
+    
+    // Check if the click is outside the modal content
+    if (e.target === modal) {
+        closeModal(); // Close the modal if clicked outside the content
+    }
+});
+
+</script>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
